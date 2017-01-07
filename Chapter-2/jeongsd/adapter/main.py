@@ -15,7 +15,7 @@ def main():
 
     print('------------------------')
 
-    macKR = appleKR.Mac(socket.TypeBtoTypeC(wallSocket))
+    macKR = appleKR.Mac(socket.TypeBtoTypeCAdapter(wallSocket))
     print('kr 맥 전원버튼 누르기')
     macKR.pushPowerButton()
 

@@ -25,7 +25,7 @@ class SocketTypeC:
         return False
 
 # 돼지코 100v -> 220v
-class TypeBtoTypeC:
+class TypeBtoTypeCAdapter:
     def __init__(self, socket):
         if not isinstance(socket, SocketTypeB):
             raise TypeError("올바르지 않은 소켓 타입입니다.")
