@@ -1,4 +1,10 @@
-*.pyc
 .DS_Store
+
+__pycache__/
+*.py[cod]
+
+# virtualenv
+.venv/
+venv/
+ENV/
 env
-venv
