@@ -1,10 +1,11 @@
-#composite pattern
-#in graphic program, useful to composite object's grouping and de-grouping
+# composite pattern
+## in graphic program, useful to composite object's grouping and de-grouping
+## metaclass : http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python
+
 
 import abc
 import sys
 
-#metaclass : http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python
 #class of class
 class AbstractItem(metaclass=abc.ABCMeta):
   @abc.abstractproperty
@@ -75,16 +76,3 @@ def main():
     
 #if __name__ == "__main__":
 main()
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
